@@ -6,13 +6,16 @@ The goal of this analysis is to provide insights regarding how city type (urban,
 
 ## Results:
 As shown in the below data frame, the urban city type has the most rides, drivers, and total fares. Due to this high frequency and availablity, the urban city types bring in the lowest average fare per ride and lowest averge fare per driver. The suburban city type is not the highest in any category yet provides a significant boost in average fare per ride and average fare per driver if you compare against the urban counterpart. Finally, the rural city type is the lowest in terms of rides, drivers, and fares. Due to the low frequency and availability, average fare per ride and average fare per rider are highest in rural areas.
+
 ![alt text](https://github.com/GrahamBSereno/PyBer_Analysis/blob/main/Analysis/summarydataframe.png)
 
-- How is the district summary affected?
-  - As shown below, the district summary is not significantly effected by the change. This metric takes into account the entire district, so the removal of one ninth grade class from one school only slighlty reduces the average math score, passing reading rate, passing math rate, and overall passing rate.
-  - Before:
-  ![alt text](https://github.com/GrahamBSereno/PyBer_Analysis/blob/main/Analysis/PyBer_rides_summary.png)
+The multi-line graphical representation below shows that the suburban types strikes the optimal balance between total rides and average fare per ride which yields the highest total fares.
+
+![alt text](https://github.com/GrahamBSereno/PyBer_Analysis/blob/main/Analysis/PyBer_rides_summary.png)
 
 
-
+## Business recommendations to the CEO for addressing any disparities among the city types.
+1. Invest in the suburban city type as this provides the optimal balance between total rides and average fare per ride.
+2. Consider adding a surge fee for urban areas to increase average fare per ride during peak hours.
+3. Consider further marketing in rural areas to increase total rides. The rural city type draws in the highest fare per ride.
 
